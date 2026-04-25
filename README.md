@@ -87,6 +87,27 @@ Add to `.vscode/mcp.json`:
 ```
 </details>
 
+<details>
+<summary><b>Antigravity (Google)</b></summary>
+
+Add to `~/.gemini/antigravity/mcp_config.json`:
+```json
+{
+  "mcpServers": {
+    "google-agent-platform-docs": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/mcp-google-agent-platform-docs",
+        "run",
+        "mcp-google-agent-platform-docs"
+      ]
+    }
+  }
+}
+```
+</details>
+
 ---
 
 ## Server Details
